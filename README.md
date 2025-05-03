@@ -16,7 +16,7 @@ Questa applicazione si pone come obiettivo quello di monitorare il numero di pas
 
 ## 4. Componenti
 - Alessandro De Carli: VR500321
-- Petrov Toni Emiloy: VR
+- Petrov Toni Emiloy: VR500646
 
 ## 5. Tecnologie utilizzate
 - `Tailwind CSS`: per una stilizzazione più veloce
