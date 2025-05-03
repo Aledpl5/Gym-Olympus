@@ -18,7 +18,7 @@ Questa applicazione si pone come obiettivo quello di monitorare il numero di pas
 - Alessandro De Carli: VR500321
 - Petrov Toni Emiloy: VR
 
-- ## 5. Tecnologie utilizzate
+## 5. Tecnologie utilizzate
 - `Tailwind CSS`: per una stilizzazione più veloce
 - `lucid-react`: per l'utilizzo di icone
 - `date-fns`: per l'utilizzo di funzioni ottimizzate per le date
