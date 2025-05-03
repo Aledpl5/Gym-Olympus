@@ -29,8 +29,6 @@ Questa applicazione si pone come obiettivo quello di monitorare il numero di pas
 - `router-dom`: per la navigazione
 - `eslint` con `globals`: aiuta con errori sintattici nel codice assieme ad alcune variabili globali predefinite
 - `autoprefixer`: serve per la compatibilità delle pagine su browser diversi
-- `axios`: client fondamentale per facilitare le richieste AJAX
-- `fortawesome`: fornisce un set di icone e i wrapper per essse
 
 ## 6. Installazione per l'utilizzo
 Per poter eseguire l'applicazione bisogna assicurarsi che innanzitutto si ha `NodeJS` installato sul proprio computer.
