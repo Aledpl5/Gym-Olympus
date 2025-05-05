@@ -8,11 +8,14 @@ Questa applicazione si pone come obiettivo quello di monitorare il numero di pas
 - `Dashboard.tsx`: pagina in cui vengono mostrati i dati giornalieri, settimanali e mensili dei passi registrati.
 - `Exercises.tsx`: pagina in cui è possibile generare automaticamente una scheda di allenamento.
 - `Settings.tsx`: pagina in cui è possibile modificare il numero di passi giornalieri impostati come obiettivo.
+- `History.tsx`: pagina in cui è possibile visualizzare lo storico delle attività registrate (camminate, corse, sessioni di ciclismo).
 - `MonthlyStepsChart.tsx` `WeeklyStepsChart.tsx` `StepChart.tsx`: componenti che mostrano dei grafici.
 - `MonthData.tsx` `WeekData.tsx`: componenti che mostrano dei box con i dati mensili e settimanali registrati.
+- `ActivityCard.tsx` `Card.tsx` `ChooseCard.tsx` `ExerciseCard.tsx` `Sidebar.tsx`: componenti secondari utilizzati per migliorare la UI. 
 
 ## 3. Limiti attuali
 - L'applicazione si basa si dati statici caricati dall'utente nella prima pagina dell'applicazione.
+- Il file dello storico delle attività è caricato automaticamente e in modo statico da un file `.csv`. Sarebbe opportuno usare un datase costantemente aggiornato.
 
 ## 4. Componenti
 - Alessandro De Carli: VR500321
@@ -29,6 +32,7 @@ Questa applicazione si pone come obiettivo quello di monitorare il numero di pas
 - `router-dom`: per la navigazione
 - `eslint` con `globals`: aiuta con errori sintattici nel codice assieme ad alcune variabili globali predefinite
 - `autoprefixer`: serve per la compatibilità delle pagine su browser diversi
+- `axios`: serve per chiamate API. Nel nostro caso, serve per eseguire una GET per reperire il file di storico delle attività.
 
 ## 6. Installazione per l'utilizzo
 Per poter eseguire l'applicazione bisogna assicurarsi che innanzitutto si ha `NodeJS` installato sul proprio computer.
@@ -50,7 +54,7 @@ npm -v
 > E' consigliato l'installazione di `NVM` per una più semplice gestione dei pacchetti.
 
 ### Come avviare ed utilizzare l'applicazione
-Infine per eseguire l'applicazione basta spostarsi nella directory del progetto e eseguire il comando
+Infine per eseguire l'applicazione basta spostarsi tramite terminale nella directory del progetto e eseguire il comando
 ```bash
 npm run dev
 ```
