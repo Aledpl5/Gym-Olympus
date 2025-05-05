@@ -42,7 +42,7 @@ function Dashboard() {
       <Sidebar />
 
       {/* Contenuto che scrolla */}
-      <main className="ml-48 flex-1 bg-gray-100 min-h-screen py-8 px-4 sm:px-6 lg:px-8 font-sans overflow-y-auto">
+      <main className="ml-24 sm:ml-48 flex-1 min-h-screen py-8 px-4 sm:px-6 lg:px-8 font-sans overflow-y-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 text-left">Dashboard</h1>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

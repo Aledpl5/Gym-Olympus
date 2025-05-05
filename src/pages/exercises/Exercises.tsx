@@ -96,10 +96,10 @@ const getDifficultyClass = (level: string) => {
       <Sidebar />
 
       {/* Contenuto principale */}
-      <main className="ml-48 flex-1 bg-gray-100 min-h-screen py-8 px-4 sm:px-6 lg:px-8 font-sans overflow-y-auto">
+      <main className="ml-24 sm:ml-48 flex-1 min-h-screen py-8 px-4 sm:px-6 lg:px-8 font-sans overflow-y-auto">
         <h1 className="text-4xl font-bold text-gray-900 mb-6 text-left">Esercizi</h1>
 
-        <p className={`${formDisplayed} text-gray-700 text-lg font-bold mb-6`}>
+        <p className={`${formDisplayed} text-lg font-bold mb-6`}>
           Dicci le tue preferenze e provvederemo a generarti una scheda di allenamento personalizzata!
         </p>
 
