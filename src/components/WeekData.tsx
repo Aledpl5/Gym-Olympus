@@ -2,7 +2,7 @@ import { useEffect, useState } from "react"
 import { csvDataType, weekDataType } from "../../lib/utils"
 import { addDays, isSameDay, startOfWeek } from "date-fns";
 
-const WeekData = ( {selectedDate, stepsGoal}: weekDataType) => {
+const WeekData = ( { selectedDate }: weekDataType) => {
 
   // states
   const [stepsSum, setStepsSum] = useState<number>(0)

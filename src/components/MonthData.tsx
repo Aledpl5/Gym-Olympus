@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import { monthDataType } from "../../lib/utils"
 
-const MonthData = ( { selectedDate, stepsGoal } : monthDataType ) => {
+const MonthData = ( { selectedDate } : monthDataType ) => {
 
   // states 
   const [stepsSum, setStepsSum] = useState<number>(0)

@@ -115,7 +115,7 @@ function Dashboard() {
           <div className='bg-white rounded-lg shadow-md p-6'>
             <h2 className='text-xl font-semibold text-gray-900 mb-3'>🗓️ Progressi settimanali:</h2>
             {data.csvData && filteredEntry ? (
-              <WeekData selectedDate={selectedDate} stepsGoal={data.stepsGoal}></WeekData>
+              <WeekData selectedDate={selectedDate}></WeekData>
             ) : (<p className='text-gray-500'>Nessun dato disponibile per questa data.</p>)}
           </div>
 
@@ -136,7 +136,7 @@ function Dashboard() {
           <div className='bg-white rounded-lg shadow-md p-6'>
             <h2 className='text-xl font-semibold text-gray-900 mb-3'>🗓️ Progressi mensili:</h2>
             {data.csvData && filteredEntry ? (
-              <MonthData selectedDate={selectedDate} stepsGoal={data.stepsGoal} />
+              <MonthData selectedDate={selectedDate}/>
             ) : (<p className='text-gray-500'>Nessun dato disponibile per questa data.</p>
             )}
           </div>

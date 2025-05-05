@@ -52,11 +52,9 @@ export interface monthlyStepsChartType {
 }
 
 export interface weekDataType {
-    selectedDate: Date,
-    stepsGoal: number
+    selectedDate: Date
 }
 
 export interface monthDataType {
-    selectedDate: Date,
-    stepsGoal: number
+    selectedDate: Date
 }
