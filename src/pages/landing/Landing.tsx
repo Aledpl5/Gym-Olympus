@@ -1,6 +1,5 @@
 import Card from '../../components/Card';
 import FormData from "../../components/FormData"
-import '../style/landing.css'
 
 function Landing() {
     return (

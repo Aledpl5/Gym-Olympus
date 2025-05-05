@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import Sidebar from '../../components/Sidebar';
-import '../style/exercises.css';
 import ChooseCard from '../../components/ChooseCard';
 import { exerciseType } from '../../../lib/utils';
 import { exercises } from '../../../costants/exercises';
