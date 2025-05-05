@@ -6,6 +6,7 @@ import Landing from './pages/landing/Landing.tsx'
 import Dashboard from './pages/dashboard/Dashboard.tsx'
 import Exercises from './pages/exercises/Exercises.tsx'
 import Settings from './pages/settings/Settings.tsx'
+import History from './pages/history/History.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')!).render(
         <Route index path="/" element={<Landing />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path='/exercises' element={<Exercises />}/>
+        <Route path="/history" element={<History />}/>
         <Route path="/settings" element={<Settings />}/>
       </Routes>
     </BrowserRouter>

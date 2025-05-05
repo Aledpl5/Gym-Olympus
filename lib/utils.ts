@@ -58,3 +58,16 @@ export interface weekDataType {
 export interface monthDataType {
     selectedDate: Date
 }
+
+export interface Activity {
+    calories: number;
+    distance: number;      // in metri
+    start_time: number;    // Unix timestamp in secondi
+    end_time: number;      // Unix timestamp in secondi
+    steps: number;
+    type: string;
+  }
+  
+export interface ActivityCardProps {
+    activity: Activity;
+}

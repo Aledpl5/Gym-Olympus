@@ -1,4 +1,4 @@
-import { Book, House, Settings } from 'lucide-react';
+import { Book, Clock, House, Settings } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
@@ -26,6 +26,15 @@ const Sidebar = () => {
         <Book className="h-5 w-5" color='#fff'/>
         <span className='text-white'>Esercizi</span>
       </Link>
+
+      <Link
+        to="/history"
+        className="flex items-center space-x-2 py-2 hover:bg-gray-700 transition-colors w-full px-2 rounded-lg"
+      >
+        <Clock className="h-5 w-5" color='#fff'/>
+        <span className='text-white'>Storico</span>
+      </Link>
+
       <Link to="/settings" className='flex items-centere space-x-2 py-2 hover:bg-gray-700 transition-colors w-full px-2 rounded-lg'>
         <Settings className='h-5 w-5' color="#fff"/>
         <span className='text-white'>Impostazioni</span>
