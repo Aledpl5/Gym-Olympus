@@ -54,7 +54,7 @@ npm -v
 > E' consigliato l'installazione di `NVM` per una più semplice gestione dei pacchetti.
 
 ### Installare le dipendenze
-Prima di poter eseguire l'applicazione, occorre installare le dipendenze del progetto eseguendo questo comando:
+Prima di poter eseguire l'applicazione, occorre installare le dipendenze del progetto eseguendo questo comando tramite terminale nella cartella root:
 ```bash
 npm install
 ```
